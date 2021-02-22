@@ -63,7 +63,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - Github: [@adamclasic](https://github.com/adamclasic)
 - Twitter: [@adamallalou](https://twitter.com/adamallalou)
-- Linkedin: [Adam Abderrahmane Allalou](https://www.linkedin.com/adam-allalou/)
+- Linkedin: [Adam Abderrahmane Allalou](https://www.linkedin.com/in/adam-allalou/)
 
 ## 🤝 Contributing
 
