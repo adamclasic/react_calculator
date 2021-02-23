@@ -1,6 +1,6 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
-import calculate from './logic/calculate';
-// import Button from './Button';
+import calculate from '../logic/calculate';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 

@@ -1,3 +1,5 @@
+/* eslint-disable no-param-reassign */
+
 import operate from './operate';
 
 const calculate = ({ total, next, operation }, buttonName) => {
