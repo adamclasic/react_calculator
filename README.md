@@ -31,7 +31,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
@@ -59,7 +58,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Authors
 
-👤 **Rajkumar Das**
+👤 **Adam Abderrahmane Allalou**
 
 - Github: [@adamclasic](https://github.com/adamclasic)
 - Twitter: [@adamallalou](https://twitter.com/adamallalou)
