@@ -1,11 +1,24 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const Display = () => {
+const Display = props => {
+  const { count } = props;
+
   return (
     <div>
-      Display
+      Display:
+      {' '}
+      { count }
     </div>
-  )
-}
+  );
+};
 
-export default Display
+Display.propTypes = {
+  count: PropTypes.string,
+};
+
+Display.defaultProps = {
+  count: '00',
+};
+
+export default Display;

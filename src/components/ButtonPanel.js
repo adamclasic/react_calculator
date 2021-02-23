@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const ButtonPanel = () => {
-  return (
-    <div>
-      ButtonPanel
-    </div>
-  )
-}
+const ButtonPanel = () => (
+  <div>
+    ButtonPanel
+  </div>
+);
 
-export default ButtonPanel
+export default ButtonPanel;
