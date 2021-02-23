@@ -1,15 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = props => {
-  const { count } = props;
-
-  return (
-    <div>
-      { count }
-    </div>
-  );
-};
+const Display = ({ count }) => (
+  <div>
+    { count }
+  </div>
+);
 
 Display.propTypes = {
   count: PropTypes.string,
