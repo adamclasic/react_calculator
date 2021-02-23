@@ -1,4 +1,5 @@
 import './App.css';
+import calculate from '.logic/calculate';
 // import Button from './Button';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
