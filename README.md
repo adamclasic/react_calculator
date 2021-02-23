@@ -1,6 +1,6 @@
 # React Calculator
 
-> This App is built using React
+> This App is built using React.
 
 ![screenshot](./public/calculator.png)
 
