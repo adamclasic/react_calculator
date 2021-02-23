@@ -23,7 +23,6 @@ const operate = (numberOne, numberTwo, operation) => {
   }
 
   return valueArg.toString();
-
 };
 
 export default operate;
