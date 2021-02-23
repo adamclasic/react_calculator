@@ -6,8 +6,6 @@ const Display = props => {
 
   return (
     <div>
-      Display:
-      {' '}
       { count }
     </div>
   );
@@ -18,7 +16,7 @@ Display.propTypes = {
 };
 
 Display.defaultProps = {
-  count: '00',
+  count: '0',
 };
 
 export default Display;

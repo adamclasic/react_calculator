@@ -1,8 +1,9 @@
 import React from 'react';
+import Button from './Button';
 
 const ButtonPanel = () => (
   <div>
-    ButtonPanel
+    <Button name="hey" />
   </div>
 );
 

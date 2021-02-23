@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       Calculator app:
-      <ButtonPanel />
       <Display count="20.0" />
+      <ButtonPanel />
     </div>
   );
 }
