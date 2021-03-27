@@ -1,7 +1,5 @@
-/* eslint-disable */
-
-import operate from './operate';
 import Big from 'big.js';
+import operate from './operate';
 
 function calculate(obj, buttonName) {
   function isNumber(item) {
@@ -108,6 +106,6 @@ function calculate(obj, buttonName) {
     next: null,
     operation: buttonName,
   };
-};
+}
 
 export default calculate;

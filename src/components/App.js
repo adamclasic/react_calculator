@@ -1,4 +1,3 @@
-/* eslint-disable */ 
 /* eslint-disable react/prefer-stateless-function, react/destructuring-assignment,
 react/no-access-state-in-setstate, no-unused-vars */
 import React, { Component } from 'react';
@@ -19,11 +18,6 @@ class App extends Component {
   }
 
   handleClick(buttonName) {
-    // this.setState({
-    //   total: 22,
-    //   next: 1,
-    //   operation: '+',
-    // });
     this.setState(calculate(this.state, buttonName));
     console.log('this is calculate()');
     console.log(calculate(this.state, buttonName));
@@ -35,7 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <Display count={this.state.next || this.state.total || '0'} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <ButtonPanel className="display" clickHandler={this.handleClick} />
       </div>
     );
   }
