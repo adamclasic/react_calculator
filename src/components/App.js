@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Display />
+        <Display count={this.state.next || this.state.total || '0'} />
         <ButtonPanel />
       </div>
     );
