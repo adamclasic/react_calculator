@@ -7,6 +7,20 @@ import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    // this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(buttonName) {
+    this.setState(calculate(this.state, buttonName));
+  }
+
   render() {
     return (
       <div className="App">
