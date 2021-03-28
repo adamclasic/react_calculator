@@ -10,10 +10,10 @@ function operate(numberOne, numberTwo, operation) {
   if (operation === '-') {
     return one.minus(two).toString();
   }
-  if (operation === 'x') {
+  if (operation === '*') {
     return one.times(two).toString();
   }
-  if (operation === '÷') {
+  if (operation === '/') {
     if (two == '0') {
       return 'Divide by 0 error';
     } else {
